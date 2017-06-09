@@ -1,0 +1,24 @@
+body {
+  align-items: center;
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  background: #44b;
+  cursor: none;
+  height: auto;
+  image-rendering: pixelated;
+  width: 100%;
+}
+
+.textbox {
+  bottom: 50%;
+  color: #000;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 22px;
+  position: absolute;
+  text-align: center;
+  width: 80%;
+}
