@@ -10,6 +10,9 @@ canvas {
   cursor: none;
   height: auto;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering:   -o-crisp-edges; /* Opera */
+  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
   width: 100%;
 }
 
