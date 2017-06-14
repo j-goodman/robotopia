@@ -63,6 +63,11 @@ canvas {
   cursor: pointer;
 }
 
+.menu > ul > .non-select:hover {
+  background: none;
+  cursor: auto;
+}
+
 .left-align {
   text-align: left;
 }
