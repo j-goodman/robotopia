@@ -19,11 +19,13 @@ canvas {
 .textbox {
   bottom: 50%;
   color: #000;
-  font-family: 'Press Start 2P', monospace;
-  font-size: 22px;
+  font-family: 'VT323', monospace;
+  text-shadow: -1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff;
+  font-size: 40px;
   position: absolute;
   text-align: center;
   width: 80%;
+  z-index: 1;
 }
 
 .menu {
@@ -33,8 +35,8 @@ canvas {
   border: 1px solid #fff;
   color: #fff;
   display: none;
-  font-family: 'Press Start 2P', monospace;
-  font-size: 14px;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
   left: 0;
   position: absolute;
   top: 0;
