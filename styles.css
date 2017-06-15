@@ -39,7 +39,7 @@ canvas {
   position: absolute;
   top: 0;
   transform: translate(0, 0);
-  width: 240px;
+  width: 320px;
 }
 
 .menu > .name {
