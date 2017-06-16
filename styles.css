@@ -65,7 +65,17 @@ canvas {
   cursor: pointer;
 }
 
+.menu > ul > li > li:hover {
+  background: #a09;
+  cursor: pointer;
+}
+
 .menu > ul > .non-select:hover {
+  background: none;
+  cursor: auto;
+}
+
+.menu > ul > li > .non-select:hover {
   background: none;
   cursor: auto;
 }
